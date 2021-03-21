@@ -1,12 +1,12 @@
 .Weather {
   border-radius: 5px;
-  padding: 15px;
+  padding: 25px;
   background: rgba(226, 213, 213, 0.479);
   box-shadow: 6px 7px 16px -3px rgba(91, 91, 91, 0.73);
 }
 
 .Weather h1 {
-  margin: 20px 0 0 0;
+  margin: 20px 0 10px 0;
 }
 
 .Weather ul {
@@ -16,7 +16,6 @@
 }
 
 .Weather canvas {
-  display: inline-block;
   margin-right: 10px;
   margin-top: 7px;
 }
