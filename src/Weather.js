@@ -41,7 +41,7 @@ export default function Weather(props) {
       <div className="Weather">
         <form onSubmit={handleSubmit}>
           <div className="row">
-            <div className="col-9">
+            <div className="col-sm-9 mb-1">
               <input
                 type="search"
                 placeholder="Enter a city..."
@@ -50,17 +50,27 @@ export default function Weather(props) {
                 onChange={handleCityChange}
               />
             </div>
-            <div className="col-3">
+            <div className="col-sm-3">
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-primary w-100 search-button"
+                className="btn btn-info w-100 search-button"
               />
             </div>
           </div>
         </form>
         <WeatherInfo data={weatherData} />
         <WeatherForecast city={weatherData.city} />
+        <footer>
+          This project was coded by 👩‍💻Natalia Kur and is{" "}
+          <a
+            href="https://github.com/Katalia91/react-weather-app"
+            target="_blank"
+          >
+            open-sourced
+          </a>
+          .
+        </footer>
       </div>
     );
   } else {

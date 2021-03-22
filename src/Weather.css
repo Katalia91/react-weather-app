@@ -1,7 +1,7 @@
 .Weather {
   border-radius: 5px;
-  padding: 25px;
-  background: rgba(226, 213, 213, 0.479);
+  padding: 20px;
+  background: rgba(226, 213, 213, 0.687);
   box-shadow: 6px 7px 16px -3px rgba(91, 91, 91, 0.73);
 }
 
@@ -32,4 +32,39 @@
   position: relative;
   top: -34px;
   line-height: 1;
+}
+
+.Weather .unit a {
+  color: #306f7f;
+}
+
+.Weather .unit a:hover {
+  color: #306f7f;
+}
+.Weather .search-button {
+  background: #306f7f;
+  border: 1px solid #306f7f;
+}
+
+@media (max-width: 768px) {
+  .Weather .search-button {
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .Weather .search-button {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .Weather .search-button {
+    min-width: 100%;
+  }
+}
+@media (min-width: 768px) and (orientation: landscape) {
+  .Weather .search-button {
+    min-width: 100%;
+  }
 }

@@ -7,16 +7,6 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Oslo" />
-        <footer>
-          This project was coded by 👩‍💻Natalia Kur and is{" "}
-          <a
-            href="https://github.com/Katalia91/react-weather-app"
-            target="_blank"
-          >
-            open-sourced
-          </a>
-          .
-        </footer>
       </div>
     </div>
   );
