@@ -1,4 +1,5 @@
 import React from "react";
+import { WiSunset } from "react-icons/wi";
 
 export default function Sunset(props) {
   let hours = props.time.getHours();
@@ -15,7 +16,7 @@ export default function Sunset(props) {
     <div>
       <ul>
         <li>
-          Sunset: {hours}:{minutes}
+          <WiSunset size="2em" color="darkblue" /> Sunset: {hours}:{minutes}
         </li>
       </ul>
     </div>

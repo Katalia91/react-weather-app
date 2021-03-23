@@ -63,12 +63,14 @@ export default function Weather(props) {
         <WeatherForecast city={weatherData.city} />
         <footer>
           This project was coded by 👩‍💻Natalia Kur and is{" "}
-          <a
-            href="https://github.com/Katalia91/react-weather-app"
-            target="_blank"
-          >
-            open-sourced
-          </a>
+          <span className="footer">
+            <a
+              href="https://github.com/Katalia91/react-weather-app"
+              target="_blank"
+            >
+              open-sourced
+            </a>
+          </span>
           .
         </footer>
       </div>

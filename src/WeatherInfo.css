@@ -4,3 +4,19 @@
 .description {
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .conditions {
+    text-align: center;
+  }
+  .conditions ul {
+    margin-top: 3px;
+  }
+  .WeatherInfo .conditions li {
+    display: inline;
+    font-size: 13px;
+  }
+  .WeatherInfo .temperature {
+    margin-bottom: 15px;
+  }
+}

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@300&family=Train+One&family=Ubuntu&display=swap");
 .Weather {
   border-radius: 5px;
   padding: 20px;
@@ -7,6 +8,8 @@
 
 .Weather h1 {
   margin: 20px 0 10px 0;
+  font-family: "Lobster", cursive;
+  font-size: 50px;
 }
 
 .Weather ul {
@@ -44,6 +47,10 @@
 .Weather .search-button {
   background: #306f7f;
   border: 1px solid #306f7f;
+}
+
+.Weather .footer {
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {

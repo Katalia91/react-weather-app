@@ -1,4 +1,6 @@
 import React from "react";
+import { WiSunrise } from "react-icons/wi";
+import "./Sunrise.css";
 
 export default function Sunrise(props) {
   let hours = props.time.getHours();
@@ -15,7 +17,7 @@ export default function Sunrise(props) {
     <div>
       <ul>
         <li>
-          Sunrise: {hours}:{minutes}
+          <WiSunrise size="2em" color="orangered" /> Sunrise: {hours}:{minutes}
         </li>
       </ul>
     </div>
