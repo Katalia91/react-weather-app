@@ -25,3 +25,18 @@ body {
 .App footer a {
   color: #1e7388;
 }
+
+body.night .Weather {
+  background: #112f47;
+  color: #e0a96b;
+}
+
+body.night .App footer {
+  color: #e0a96b;
+}
+
+body.night {
+  background-image: url("img/citylights.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
