@@ -62,7 +62,7 @@ export default function Weather(props) {
         </form>
         <WeatherInfo data={weatherData} />
         <WeatherForecast city={weatherData.city} />
-        <ChangeBackground />
+
         <footer>
           This project was coded by 👩‍💻Natalia Kur and is{" "}
           <span className="footer">
