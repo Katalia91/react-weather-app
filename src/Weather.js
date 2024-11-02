@@ -68,6 +68,7 @@ export default function Weather(props) {
             <a
               href="https://github.com/Katalia91/react-weather-app"
               target="_blank"
+              rel="noreferrer"
             >
               open-sourced
             </a>
